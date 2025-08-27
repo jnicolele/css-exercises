@@ -7,8 +7,12 @@ For this first exercise, simply edit the `style.css` file so that the divs look 
 ### Self-check 
 Use this section to check your work. On _these_ projects, your goal isn't to attain 100% pixel perfection, but to use the tools you've learned to get relatively close to the desired output.
 
-- Div One and Div Three have 32px between their text and border.
+- Div One and Div Three have 32px between their text and border. 
+<!-- DONE -->
 - Div One has 12px between it and any other element on the page.
+<!-- DONE! HAD TO GOOGLE IT LOL BC THE I THOUGHT THE MARGIN WAS LIKE FOR THE TEXT "DIV ONE" INSIDE -->
 - There is a 48px gap between Div Two and Div Three.
+<!-- Done -->
 - Div Three is aligned to the right.
+<!-- DOES THAT WORK? ITS ON THE RIGHT THOUHG? 350PX MARGIN LEFT?? -->
 - Div Three's alignment is achieved using `margin` (and not float, flexbox, etc.).
