@@ -14,5 +14,10 @@ Issues with the cascade can be the bane of their existence for many when it come
 
 ### Self Check
 
-- Did you make sure to not edit the HTML file?
+- Did you make sure to not edit the HTML file? 
+<!-- Yessss -->
 - If you added selectors to the CSS, do they target a valid HTML element?
+<!-- I moved selector .para before .small-para -->
+<!-- ohh and I made the .confirm to #confirm because its an id selector not a class -->
+<!-- I removed a "div" in the div.text selector bc its unnecessary -->
+<!-- I moved .text selector above the .child selector -->
