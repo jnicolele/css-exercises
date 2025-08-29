@@ -3,15 +3,40 @@ you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
 body {
-  margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.left-stuff {
+  display: flex;
+  gap: 16px;
+  margin-right: auto;
+  align-items: center;
+
+}
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.right-stuff {
+  display: flex;
+  gap: 16px;
+  margin-left: auto;
+  align-items: center;
 }
 
 .profile-image {
@@ -22,19 +47,12 @@ body {
   height: 48px;
 }
 
-.logo {
-  color: rebeccapurple;
-  font-size: 32px;
-  font-weight: 900;
-  font-style: italic;
-}
-
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding: 8px;
 }
 
 a {
@@ -45,4 +63,8 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }

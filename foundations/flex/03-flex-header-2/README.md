@@ -15,7 +15,14 @@ As with the last example, this one needs to be flexible in the middle, with item
 
 ### Self Check
 - Everything is centered vertically inside the header.
+<!-- okay -->
 - There is 8px space between everything and the edge of the header.
+<!--okay...  -->
 - Items are arranged horizontally as seen in the outcome image.
+<!-- BITCH I DID IT WTF -->
 - There is 16px between each item on both sides of the header.
+<!-- GIRL DID I REALLY? -->
 - flex is used to arrange everything.
+<!-- MOM, LOOK! OHMYGOD =((((( -->
+
+<!-- i dont even want to look at the solution anymore. i ate this -->
