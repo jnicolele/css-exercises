@@ -20,6 +20,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -31,9 +34,22 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
+/* added flex-shrink 0 to .icon */
+
+.content {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+/* added this container for the header, close icon, text, and the buttons */
+.header-close {
+  display: flex;
+}
+/* added this container as well to keep header and the clos icon aligned */
 
 .close-button {
   background: #eee;
@@ -48,7 +64,17 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  flex-shrink: 0;
+  margin-left: auto;
 }
+/* added flex-shrink 0, and margin-left auto to keep it on the right side */
+
+.header {
+  font-size: 20px;
+  font-weight: 700;
+}
+/* added this to format the header/title of the modal */
+
 
 button {
   cursor: pointer;
